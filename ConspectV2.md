@@ -38,7 +38,7 @@ GIT сохраняет в памяти разницу между файлами.
 ---
 # Продолжение мини руководства по git
 ---
-# Commands for GIT
+# <span style='color:green'> **Commands for GIT** </span>
 >1. git config --global user.name/email '' - регистрация в гите.
 >2. git --version - показывает текущую версию гита.
 >3. git init - инициализация гита в папке.
@@ -67,10 +67,14 @@ GIT сохраняет в памяти разницу между файлами.
 >22. git add -f - принудительный коммит игнорируемого файла.
 >23. git branch -m new-name < Преименование веток > git branch -m 'old name' 'new name'
 >24. git branch --contains 'commit' - показывает ветки с указанным коммитом.
+---
+<span style='color:green'>**Work with GitHub** </span>
+=
+---
+>1. git remote add origin __ссылка на репозит__ - команда, которая связывает локальный репозит с удаленным репозитом
+созданный в GitHub.
+>2. git push -u origin __имя веточки__ - отправляет актуальную версию на GitHub.
 
 ![proh](https://cs8.pikabu.ru/post_img/big/2018/03/07/5/1520402985138325770.png)
 ![тыж программист](tijprog.jpg)
 ![Nyan-cat](https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1)
-
-<span style='color:green'>**Итоги - произвел слияние с 4 - мя ветками с конфликтом (кроме последнего слияния) + создал ветку сироту, там просто команды)))** </span>
-=
