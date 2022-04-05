@@ -36,9 +36,9 @@ GIT сохраняет в памяти разницу между файлами.
 
 ###### <span style="color:#e159af"> Здесь может быть ваша реклама XD </span>
 ---
-# Продолжение мини руководства по git
+# Мини руководство по git
 ---
-# <span style='color:green'> **Commands for GIT** </span>
+## <span style='color:green'> **Commands for GIT** </span>
 >1. git config --global user.name/email '' - регистрация в гите.
 >2. git --version - показывает текущую версию гита.
 >3. git init - инициализация гита в папке.
@@ -68,12 +68,13 @@ GIT сохраняет в памяти разницу между файлами.
 >23. git branch -m new-name < Преименование веток > git branch -m 'old name' 'new name'
 >24. git branch --contains 'commit' - показывает ветки с указанным коммитом.
 ---
-<span style='color:green'>**Work with GitHub** </span>
+## <span style='color:green'>**Work with GitHub** </span>
 =
 ---
 >1. git remote add origin __ссылка на репозит__ - команда, которая связывает локальный репозит с удаленным репозитом
-созданный в GitHub.
->2. git push -u origin __имя веточки__ - отправляет актуальную версию на GitHub.
+созданным в GitHub.
+>2. git push -u origin - отправляет актуальную версию на GitHub`а.
+>3. git pull origin - загружает актуальную версию __С__ GitHab`а.
 
 ![proh](https://cs8.pikabu.ru/post_img/big/2018/03/07/5/1520402985138325770.png)
 ![Nyan-cat](https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1)
