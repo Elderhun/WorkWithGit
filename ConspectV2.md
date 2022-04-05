@@ -67,7 +67,9 @@ GIT сохраняет в памяти разницу между файлами.
 >22. git add -f - принудительный коммит игнорируемого файла.
 >23. git branch -m new-name < Преименование веток > git branch -m 'old name' 'new name'
 >24. git branch --contains 'commit' - показывает ветки с указанным коммитом.
->25. git rm - удаляет файл из отслеживаемых
+>25. git rm - удаляет файл из отслеживаемых. (если вписать \ *le - удалит все файлы которые заканчиваются на le)
+>26. git rm --cached - удаляет из индекса но оставляет в рабочем каталоге.
+>27. git rebase __branch name__ - перебазирование основной ветки.
 ---
 ## <span style='color:green'>**Work with GitHub** </span>
 =
@@ -76,6 +78,8 @@ GIT сохраняет в памяти разницу между файлами.
 созданным в GitHub.
 >2. git push -u origin - отправляет актуальную версию на GitHub`а.
 >3. git pull origin - загружает актуальную версию __С__ GitHab`а.
+>4. git remote -v - показывает удаленные подключения к репозитам.
+>5. git push origin --delete - удаляет ветку в удаленном репозитории.
 
 ![proh](https://cs8.pikabu.ru/post_img/big/2018/03/07/5/1520402985138325770.png)
 ![Nyan-cat](https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?fit=476%2C280&ssl=1)
