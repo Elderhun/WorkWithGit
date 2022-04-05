@@ -67,6 +67,7 @@ GIT сохраняет в памяти разницу между файлами.
 >22. git add -f - принудительный коммит игнорируемого файла.
 >23. git branch -m new-name < Преименование веток > git branch -m 'old name' 'new name'
 >24. git branch --contains 'commit' - показывает ветки с указанным коммитом.
+>25. git rm - удаляет файл из отслеживаемых
 ---
 ## <span style='color:green'>**Work with GitHub** </span>
 =
